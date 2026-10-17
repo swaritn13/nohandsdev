@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NoHandsDev - Demo Video Script & Submission Guide</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 16mm;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #18181b;
+      line-height: 1.5;
+      font-size: 13px;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      border-bottom: 2px solid #ea580c;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 4px 0;
+      color: #09090b;
+    }
+    .badge {
+      display: inline-block;
+      background: #ffedd5;
+      color: #9a3412;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #71717a;
+      margin: 0;
+    }
+    .meta-box {
+      background: #fafafa;
+      border: 1px solid #e4e4e7;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 18px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      font-size: 11px;
+    }
+    .meta-item strong {
+      display: block;
+      color: #27272a;
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
+    h2 {
+      font-size: 15px;
+      margin: 18px 0 8px 0;
+      color: #0f172a;
+      border-left: 3px solid #ea580c;
+      padding-left: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+      font-size: 12px;
+    }
+    th, td {
+      border: 1px solid #e4e4e7;
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f4f4f5;
+      font-weight: 600;
+      color: #3f3f46;
+    }
+    .time-col {
+      width: 85px;
+      font-family: monospace;
+      font-weight: bold;
+      color: #ea580c;
+    }
+    .action-col {
+      width: 200px;
+      color: #4b5563;
+    }
+    .script-text {
+      background: #f8fafc;
+      padding: 4px 6px;
+      border-left: 2px solid #3b82f6;
+      border-radius: 2px;
+      font-style: italic;
+      color: #1e293b;
+    }
+    .tip-box {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 11px;
+      color: #9a3412;
+      margin: 14px 0;
+    }
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 14px 0;
+    }
+    .checklist li {
+      padding: 4px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+    }
+    .checkbox {
+      width: 12px;
+      height: 12px;
+      border: 1.5px solid #a1a1aa;
+      border-radius: 2px;
+      display: inline-block;
+    }
+    .footer-note {
+      text-align: center;
+      font-size: 10px;
+      color: #a1a1aa;
+      border-top: 1px solid #e4e4e7;
+      padding-top: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <span class="badge">Official Video Guide</span>
+      <h1>NoHandsDev — 2-Minute Demo Script</h1>
+      <p class="subtitle">WeMakeDevs &times; Wispr Flow Hackathon ("No Hands: The Wispr Challenge")</p>
+    </div>
+    <div style="text-align: right; font-size: 11px; color: #71717a;">
+      Target: <strong>90 - 110 Seconds</strong><br>
+      Max Allowed: <strong>120 Seconds</strong>
+    </div>
+  </div>
+
+  <div class="meta-box">
+    <div class="meta-item">
+      <span>Project Name</span>
+      <strong>NoHandsDev</strong>
+    </div>
+    <div class="meta-item">
+      <span>Track</span>
+      <strong>Track 1: Builders</strong>
+    </div>
+    <div class="meta-item">
+      <span>GitHub Repo</span>
+      <strong>github.com/swaritn13/nohandsdev</strong>
+    </div>
+    <div class="meta-item">
+      <span>Video Visibility</span>
+      <strong>Unlisted on YouTube</strong>
+    </div>
+  </div>
+
+  <h2>1. Pre-Recording Checklist (2 Minutes)</h2>
+  <ul class="checklist">
+    <li><span class="checkbox"></span> Open <strong>http://localhost:3000</strong> (or your Vercel URL) in Chrome.</li>
+    <li><span class="checkbox"></span> Ensure <strong>Wispr Flow</strong> is running in the background with hotkey active (<code>Ctrl + Win</code>).</li>
+    <li><span class="checkbox"></span> Start your screen recorder (OBS Studio, Loom, or Windows <code>Win + Alt + R</code>).</li>
+    <li><span class="checkbox"></span> Keep microphone close and speak clearly at a natural, energetic pace.</li>
+  </ul>
+
+  <h2>2. Minute-by-Minute Script & Action Plan</h2>
+  <table>
+    <thead>
+      <tr>
+        <th class="time-col">Timing</th>
+        <th class="action-col">On-Screen Action</th>
+        <th>What to Say (Exact Script)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time-col">0:00 - 0:20</td>
+        <td>Show the <strong>NoHandsDev</strong> homepage. Point cursor at the hero title.</td>
+        <td>
+          <div class="script-text">
+            "Hey everyone! Developers spend over 40% of their day writing prose instead of coding — writing PRDs, typing backlog tickets, and leaving line-by-line code reviews. Typing is slow, which is why I built <strong>NoHandsDev</strong>: an end-to-end tool to plan, build, and review software entirely by voice using Wispr Flow."
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-col">0:20 - 0:50</td>
+        <td>
+          Click into the <strong>Voice-to-PRD</strong> input box.<br>
+          Hold <code>Ctrl + Win</code> and speak aloud (or click sample).<br>
+          Click <strong>Decompose into PRD & Issues</strong>.
+        </td>
+        <td>
+          <div class="script-text">
+            "Here is the first bottleneck: turning a brainstorm into tickets. I hold my Wispr Flow hotkey and describe a feature out loud: <em>'We need a Stripe checkout integration where workspace owners can invite teammates and manage seats...'</em><br>
+            Wispr types it in seconds. I click Decompose, and NoHandsDev instantly turns my speech into a structured PRD, architectural API endpoints, and atomic GitHub issues with checklists ready to copy!"
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-col">0:50 - 1:20</td>
+        <td>
+          Switch to <strong>Voice PR Review & Changelog</strong> tab.<br>
+          Scroll the code diff.<br>
+          Speak a review comment into the box.<br>
+          Click <strong>Format Structured Review</strong>.
+        </td>
+        <td>
+          <div class="script-text">
+            "Next is code review. Instead of typing nitpicks line by line, I inspect the git diff, hold my hotkey, and talk: <em>'In auth.ts line 32, wrap JSON.parse in try-catch to avoid crashing on corrupted Redis cache.'</em><br>
+            It automatically tags the comment as a Bug or Security flag, and even auto-generates release notes and changelogs for the PR."
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-col">1:20 - 1:40</td>
+        <td>
+          Switch to <strong>Wispr Insights</strong> tab or show your Wispr desktop app usage card.
+        </td>
+        <td>
+          <div class="script-text">
+            "Every spec, prompt, and review in this project was created voice-first using Wispr Flow, cutting documentation time by 4x. Here is my active Wispr usage card from the desktop app."
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-col">1:40 - 1:55</td>
+        <td>Show the GitHub repository / Vercel link.</td>
+        <td>
+          <div class="script-text">
+            "NoHandsDev bridges conversational speech with developer tooling. The repository is open on GitHub, and the live link is in the description. Huge thanks to WeMakeDevs and Wispr Flow for the challenge!"
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tip-box">
+    <strong>💡 Winning Tip for Judges:</strong> Mention that the app has a built-in <strong>"Judge 1-Click Demo"</strong> toggle at the top right so the judges (Kunal Kushwaha and Wispr team) can test it in 10 seconds without needing their own API keys!
+  </div>
+
+  <h2>3. Submission Step-by-Step (wemakedevs.org/wispr)</h2>
+  <ol style="margin-top: 4px; padding-left: 20px; font-size: 12px;">
+    <li><strong>Project Link:</strong> Your live Vercel URL (e.g. <code>https://nohandsdev.vercel.app</code>).</li>
+    <li><strong>Demo Video:</strong> Paste the unlisted YouTube link.</li>
+    <li><strong>Wispr Usage Card:</strong> Screenshot from Wispr Flow Desktop app under <em>Insights &rarr; Your usage</em>.</li>
+    <li><strong>Project Description:</strong> <em>"NoHandsDev turns natural speech into production PRDs, GitHub issues, and PR code reviews 4x faster than typing, built voice-first with Wispr Flow."</em></li>
+  </ol>
+
+  <div class="footer-note">
+    Built for Swarit Naikade &bull; Repository: https://github.com/swaritn13/nohandsdev &bull; WeMakeDevs x Wispr Challenge
+  </div>
+
+</body>
+</html>
