@@ -62,7 +62,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-2 text-sm text-zinc-400 max-w-2xl leading-relaxed">
-              Use Wispr Flow to speak thoughts at natural conversation speeds. DevVoice structures them into comprehensive PRDs, atomic GitHub issues, and contextual code review comments.
+              Use Wispr Flow to speak thoughts at natural conversation speeds. NoHandsDev structures them into comprehensive PRDs, atomic GitHub issues, and contextual code review comments.
             </p>
           </div>
 
@@ -176,7 +176,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-zinc-900 bg-zinc-950 py-6 mt-12 text-center text-xs text-zinc-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 DevVoice. Built for No Hands: The Wispr Challenge by WeMakeDevs & Wispr Flow.</p>
+          <p>© 2026 NoHandsDev. Built for No Hands: The Wispr Challenge by WeMakeDevs & Wispr Flow.</p>
           <div className="flex items-center gap-4">
             <a
               href="https://www.wemakedevs.org/wispr"

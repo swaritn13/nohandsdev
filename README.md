@@ -1,4 +1,4 @@
-# 🎙️ DevVoice — Voice-First Developer & Product Lifecycle Tool
+# 🎙️ NoHandsDev — Voice-First Developer & Product Lifecycle Tool
 
 > **Built for "No Hands: The Wispr Challenge"**  
 > A 2-week voice-first hackathon by **WeMakeDevs** and **Wispr Flow**.  
@@ -15,8 +15,8 @@ Typing is slow (~40 wpm) and leads to rushed, terse reviews and backlog clutter.
 
 ---
 
-## 💡 The Solution: DevVoice
-**DevVoice** turns natural spoken speech into production-ready engineering documentation at conversational speeds (~150 wpm) using **Wispr Flow**:
+## 💡 The Solution: NoHandsDev
+**NoHandsDev** turns natural spoken speech into production-ready engineering documentation at conversational speeds (~150 wpm) using **Wispr Flow**:
 
 1. **Tab 1: Voice $\rightarrow$ PRD & Issue Decomposer**
    - Speak a stream of thoughts or post-meeting debrief.
@@ -50,8 +50,8 @@ Typing is slow (~40 wpm) and leads to rushed, terse reviews and backlog clutter.
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/<your-username>/devvoice.git
-cd devvoice
+git clone https://github.com/<your-username>/nohandsdev.git
+cd nohandsdev
 npm install
 ```
 
@@ -68,7 +68,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 # or
 OPENAI_API_KEY=your_openai_api_key_here
 ```
-*(Note: If no API key is provided, DevVoice automatically uses its smart heuristic parsing engine so you can demo without API costs).*
+*(Note: If no API key is provided, NoHandsDev automatically uses its smart heuristic parsing engine so you can demo without API costs).*
 
 ---
 

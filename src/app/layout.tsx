@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevVoice | Voice-First PRDs, Tasks & Code Reviews",
+  title: "NoHandsDev | Voice-First PRDs, Tasks & Code Reviews",
   description:
     "Built with Wispr Flow for the WeMakeDevs No Hands Challenge. Decompose spoken ideas into PRDs and GitHub issues, and review PR diffs at conversational speed.",
 };
